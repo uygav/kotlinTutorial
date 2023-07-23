@@ -11,13 +11,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        val btnClickMe = findViewById<Button>(R.id.button1)
-        val helloDudeButton = findViewById<TextView>(R.id.textView1)
-        btnClickMe.setOnClickListener {
-            btnClickMe.text = "you clicked me !"
-            helloDudeButton.text = "you clicked button and button switched me "
+        // val btnClickMe = findViewById<Button>(R.id.button1)
+        // val helloDudeButton = findViewById<TextView>(R.id.textView1)
+        // btnClickMe.setOnClickListener {
+        //      btnClickMe.text = "you clicked me !"
+        //      helloDudeButton.text = "you clicked button and button switched me "
 
-        }
+        //}
+
+
+
 
 
 
