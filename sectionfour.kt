@@ -17,8 +17,8 @@ fun main(){
 
     var myCar = Car()
     println("brand is : ${myCar.myBrand}")
-    myCar.MaxSpeed = 200
-    println("maxspeed is ${myCar.MaxSpeed}")
+    //myCar.MaxSpeed = 200
+    //println("maxspeed is ${myCar.MaxSpeed}")
 
     // myCar.myModel = "M3"
     println("my car model is ${myCar.myModel}")
