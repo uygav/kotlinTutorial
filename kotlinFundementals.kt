@@ -115,6 +115,19 @@ fun main(){
     var len2 = nullableName?.length
     println(nullableName?.toLowerCase())
 
+
+
+
+    ///////////////////////////// lambda /////////////////
+
+    addNumber(5,4)
+    val sum:(Int,Int) -> Int = {a:Int,b:Int -> a + b}
+    // println(sum(5,4))
+
+    val sum2 = {a:Int,b:Int -> println(a+b)}
+    sum2(5,4)
+
+
 }
 
 fun myFunction(){
@@ -127,4 +140,7 @@ fun addUp(a: Int,b:Int):Int{
 fun avg(a:Double,b:Double):Double{
     return (a+b)/2
 }
-
+fun addNumber(a:Int,b:Int){
+    val add = a + b
+    // println(add)
+}
