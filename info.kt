@@ -6,4 +6,6 @@ fun main(){
     // 3- arrays (arrays , lists , set and map)
     // 4- visibility modifers (private , public , internal , protected)
     // 5- nested and inner class
+    // 6- safe and unsafe cast
+    // 7- exception handling
 }
